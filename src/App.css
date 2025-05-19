@@ -42,12 +42,16 @@
 
 /*App Custome Editing*/
 
-.container, .Page-Layout {
+.container {
     background-color: forestgreen;
     height: 100vh;
     width: 100vw;
 }
-
+.Page-Layout {
+    background-color: darkgoldenrod;
+    height: 100vh;
+    width: 100vw;
+}
 .Navbar {
     height: 4.5rem;
     width: 100%;
@@ -94,4 +98,33 @@ height: 50px;
     width: 150px;
     background-color: yellow;
     margin:20px auto
+}
+
+.Main-Menu{
+    height:100vh;
+    width:100vw;
+    background-color:darkolivegreen;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Menu-Layout{
+   height:100%;
+   width:100%;
+   background-color:blue;
+}
+.Menu-Buttons{
+    height:1rem;
+    width:100%;
+    background-color:blue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Left-one,.Right-one{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    background-color:cyan;
 }
