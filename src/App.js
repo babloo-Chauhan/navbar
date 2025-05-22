@@ -1,11 +1,12 @@
 import Card from './Components/Card';
-import './App.css';
 import Menu from './Components/Menu';
+import './App.css';
 
 function App() {
   return (
       <>
-        <Menu/>
+          
+        <Card/>
       </>
   );
 }
