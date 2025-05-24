@@ -6,23 +6,26 @@ export default function Menu() {
             <div className='Main-Menu'>
                 <div className='Menu-Layout'>
                     <div className='Menu-Buttons'>
-                        <div className='Left-one'></div>
-                        <div className='Right-one'></div>
+                        <div className='Left-one'>
+                            
+                        </div>
+                        <div className='Right-one'>
+                            
+                        </div>
                     </div>
                     <div className='Links'>
-                        <a href='/'><h3>Onedgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Twodgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Threedgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Fourdgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Fivedgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Sixdgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Sevendgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Eightdgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Onedgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Twodgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Threedgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Fourdgfdgfdgdd</h3></a>
-                        <a href='/'><h3>Fivedgfdgfdgdd</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-house-user"></i>Main Menu</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-kiwi-bird"></i>New Items 2025</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-square-up-right"></i>Upload Your Design</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-comments-dollar"></i>Feedback</h3></a>
+                        <a href='/'><h3><i className="icos fa-brands fa-intercom"></i>User Customization</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-star-half-stroke"></i>New Style</h3></a>
+                        <a href='/'><h3><i className="icos fa-brands fa-wpexplorer"></i>Explore</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-shekel-sign"></i>Latest Relese</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-code-compare"></i>Compare</h3></a>
+                        <a href='/'><h3><i className="icos fa-brands fa-medapps"></i>Media & Pictures</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-filter"></i>Option</h3></a>
+                        <a href='/'><h3><i className="icos fa-solid fa-door-open"></i>Exit</h3></a>
                     </div>
                 </div>
             </div>

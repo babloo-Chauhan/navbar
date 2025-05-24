@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import '../App.css';
 import b from '../Assets/b.jpeg';
 import c from '../Assets/c.jpeg';
 import d from '../Assets/d.jpeg';
 import e from '../Assets/e.jpeg';
 export default function Card() {
+
     return (
         <>
             <div className='container'>
                 <div className='Page-Layout'>
                     <div className='Navbar'>
-                        <div className='Menu'></div>
-                        <div className='User'></div>
+                        <div className='Menu'>
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div className='User'>
+                            <i class="fa-solid fa-folder-closed"></i>
+                        </div>
                     </div>
                     <div className='Item-box'>
                         <div className='Item-1'>
