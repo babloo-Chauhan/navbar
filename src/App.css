@@ -54,6 +54,9 @@
 }
 
 .Page-Layout {
+    position:absolute;
+    transform:translate(0px);
+    transition:all 0.4s ease;
     background-color: darkgoldenrod;
     height: 100%;
     width: 100%;

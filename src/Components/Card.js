@@ -6,12 +6,26 @@ import d from '../Assets/d.jpeg';
 import e from '../Assets/e.jpeg';
 export default function Card() {
 
+    const [open, setOpen] = useState(true);
+
+    const style = {
+        transform: open ? "translateX(0) scale(1)" : "translateX(250px) scale(0.9)",
+        borderRadius: open ? '0px' : '15px',
+        
+    };
+
+    const toggleLayout = () => {
+        setOpen(!open);
+    };
+
+
     return (
         <>
+            
             <div className='container'>
-                <div className='Page-Layout'>
+                <div className='Page-Layout' style={style}>
                     <div className='Navbar'>
-                        <div className='Menu'>
+                        <div className='Menu' onClick={toggleLayout }>
                             <i class="fa-solid fa-bars"></i>
                         </div>
                         <div className='User'>
@@ -31,6 +45,7 @@ export default function Card() {
                         <div className='Item-4'>
                             <img src={e} height='210' width='160' />
                         </div>
+
                     </div>
                     <div className='Footer-Menu'>
                         <div className='Options'><i class="fa-solid fa-house"></i></div>
