@@ -48,11 +48,25 @@
 }
 
 .container {
-    background-color: forestgreen;
     height: 100vh;
     width: 100vw;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
-
+    .container::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('C:/Users/suraj/OneDrive/Desktop/challenge/src/Assets/g.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: blur(2px);
+        z-index:-1;
+    }
 .Page-Layout {
     position:absolute;
     transform:translate(0px);
@@ -81,17 +95,14 @@
 }
 
 .Menu, .User {
-    /*    height: 50px;
-    width: 50px;*/
-    /*    background-color: white;*/
-    /*    border-radius: 100%;*/
     margin: 0 20px 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor:pointer;
+
 }
 
 
@@ -143,39 +154,51 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     cursor:pointer;
+    overflow:hidden;
 }
 
 .Main-Menu {
     height: 100vh;
-    width: 100vw;
-    background-color: darkolivegreen;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
+.menu-container{
+    position:absolute;
+    transform:translateX(-400px);
+    transition:all 0.4s ease;
+    height:100%;
+    width:80%;
+}
 .Menu-Layout {
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    
 }
-
+.open-close{
+    height:70px;
+    width:70px;
+    background-color:forestgreen;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-radius:100%;
+    transition:all 0.3s ease;
+    opacity:0.5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2.5rem;
+}
 .Menu-Buttons {
     height: 10%;
     width: 100%;
-    background-color: gray;
+    background-color:inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.Left-one, .Right-one {
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    background-color: cyan;
-    margin: 15px;
-   
 }
 
 .Links {

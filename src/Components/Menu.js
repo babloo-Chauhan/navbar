@@ -6,12 +6,7 @@ export default function Menu() {
             <div className='Main-Menu'>
                 <div className='Menu-Layout'>
                     <div className='Menu-Buttons'>
-                        <div className='Left-one'>
-                            
-                        </div>
-                        <div className='Right-one'>
-                            
-                        </div>
+                       
                     </div>
                     <div className='Links'>
                         <a href='/'><h3><i className="icos fa-solid fa-house-user"></i>Main Menu</h3></a>
