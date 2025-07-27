@@ -39,7 +39,7 @@ export default function Card() {
     transform: open ? "translateX(-500px)" : "translateX(-110px)",
     marginLeft: open ? "10px" : "110px",
     pointerEvents: "auto",
-    zIndex: 11,
+    zIndex: 10,
 
     transition: "all 0.7s ease-in-out",
     width: isMobile ? "100%" : "auto",
