@@ -157,7 +157,7 @@ export default function Card() {
                 </Link>
               </div>
 
-              <Menu />
+             
             </div>
 
             {/* Footer */}
